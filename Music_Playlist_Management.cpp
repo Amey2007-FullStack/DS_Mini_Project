@@ -12,7 +12,7 @@ class Node
         Node* prev;
 
     public:
-        // Parameterized Constructor
+        
         Node(int id, string name)
         {
             songID = id;
@@ -21,7 +21,7 @@ class Node
             prev = NULL;
         }
 
-        // Allow Playlist class to access private members
+        
         friend class Playlist;
 };
 
